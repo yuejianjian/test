@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  margin:0;
+  padding:0;
+  }
+ html{
+	 font-family:黑体;
+	 font-size:62.5%;
+	 color:#222;
+	 }
+header,footer,section{
+	box-sizing:border-box;
+	width:100%;
+	}
+ul{
+	list-style-type:none;
+	}
+a{
+	text-decoration:none;
+	}
+img{
+	border:0;
+	}
+/*定义头部样式*/
+header{
+	width:100%;
+	height:7rem;
+	font-size:1.6rem;
+	position:relative;	
+	}
+header.logo{
+	display:inline-block;
+	width:20%;
+	min-width:20rem;
+	text-align:center;
+	float:left;
+	}
+header .logo img{
+	vertical-align:middle;
+	}
+header .logo span{
+	font-size:2.5rem;
+	color:#000;
+	}
+header nav{
+	float:right;
+	margin-right:10%;
+	width:50%;
+	max-width:50rem;
+	}
+header nav ul li{
+	float:left;
+	width:20%;
+	height:100%;
+	}
+header nav ul li a{
+	display:inline-block;
+	width:80%;
+	height:6.8rem;
+	line-height:6.8rem;
+	text-align:center;
+	}
+header nav ul li a:link,:visited{
+	color:#8A8B8F;
+	}
+header nav ul li a:hover{
+	border-bottom:0.2rem solid #E65051;
+	}
+header .login{
+	width:10%;
+	height:7rem;
+	line-height:7rem;
+	color:#67B82;
+	position:absolute;
+	right:0;
+	}
+header .login img{
+	vertical-align:middle;
+	}
+/*定义首页大图标标题*/
+.home-banner{
+	position:relative;
+	
+	}
+
+.banner-wrap{
+	position:absolute;
+	left:10%;
+	bottom:20%;
+	color:#FFF;
+	}
+.banner-pic{
+	width:100%;
+	}
+.banner-wrap h1{
+	font-size:6rem;
+	font-family:Arial;
+	}
+.banner-wrap p{
+	width:22rem;
+	font-size:1.8rem;
+	margin:1.5rem 0;
+	}
+.banner-wrap a{
+	font-size:2.5rem;
+	color:#fff;
+	display:block;
+	width:25rem;
+	background-color:#E8504F;
+	text-align:center;
+	margin-top:5rem;
+	padding:0.8rem;
+	}
+.service{
+	width:100%;
+	height:15rem;
+	font-size:1.6rem;
+	padding:6rem o;
+	}
+.service ul{
+	display:inline-block;
+	}
+.service li{
+	width:25%;
+	float:left;
+	text-algin:center;
+	
+	}
+.service-pics{
+	padding-bottom:4rem;
+	
+	}
+.service li p{
+	padding-bottom:3%;
+	color:#7E7E7E;
+	}
+.service-border{
+	border-right:2px solid #ABABAB;
+	}
+.about-new-world{
+	width:100%;
+	background-color:#EDEDED;
+	text-align:center;
+	padding:8rem 0;
+	}
+.about-title{
+	margin-top:3rem;
+	font-size:4.5rem;
+	color:#A6A6A6;
+	}

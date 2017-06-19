@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>实现常见的技术产品官网的页面架构及样式布局</title>
+<link href="baidupape-7.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="../images/1_03.png" alt="首页内容" width:40px height=40px />
+            <span>新世界</span>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="https://www.baidu.com">首页</a></li>
+                <li><a href="https://www.baidu.com">最新活动</a></li>
+                <li><a href="https://www.baidu.com">项目介绍</a></li>
+                <li><a href="https://www.baidu.com">爱心社区</a></li>
+                <li><a href="https://www.baidu.com">关于我们</a></li>
+            </ul>
+            <a href="" class="login">
+                <img src="../images/login-icon.jpg" />
+                <span style=color:red>登录</span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <figure class="home-banner">
+              <img src="../images/task_1_7_1_02.png" class="banner-pic" alt="新时代，新生活"/>
+              <figcaption class="banner-wrap">
+                  <h1>Time of new life</h1>
+                  <p>新时代，年轻的人们让我们一起体验新生活，享受新生活</p>
+                  <a href="https://www.baidu.com" target="_blank">开始体验</a>
+              </figcaption>
+            </figure>
+        </section>
+        <section>
+            <ul class="service">
+                <li>
+                    <img src="../images/icon-1.jpg" class="service-pics" width:50px height:50px />
+                    <p class="service-border">打造全新世界观，让你<br/>更爱你的生活</p>
+                </li>
+                <li>
+                    <img src="../images/icon-2.jpg" class="service-pics" width:50px height:50px/>
+                    <p class="service-border">丰富多彩的公益活动，发挥<br/>新世界的主人公意识</p>
+                </li>
+                <li>
+                    <img src="../images/icon-3.jpg" class="service-pics" width:50px height:50px />
+                    <p class="service-border">时尚的新理念，超前<br/>体验未知的生活</p>
+                </li>
+                <li>
+                    <img src="../images/icon-4.jpg" class="service-pics" width:50px height:50px />
+                    <p class="service-border">完善的培养机制，帮助<br/>每一步都走的出彩</p>
+                </li>                                
+            </ul>
+        </section>
+        <section class="about-new-world">
+            <img src="../images/1_03.png" width:80px height:80px />
+            <p class="about-title">关于新世界，你不知道的还有什么？</p>
+        </section>
+        <section class="search-activity">
+            <div class="bg-image"></div>
+            <div class="search-wrap">
+                <h3>查找新世界城市活动信息</h3>
+                <p>每个城市有不同的活动信息，请自主查询您所需要了解的城市</p>
+                <form class="select-city" action="https://www.baidu.com" method="get">
+                    <div class="parent">
+                        <label class="select">
+                            <input list="countrys" placeholder="国家" />
+                            <datalist id="countrys">
+                                <option value="中国">
+                                <option value="美国">
+								<option value="俄罗斯">
+								<option value="日本">
+								<option value="英国">
+								<option value="法国">
+								<option value="德国">
+								<option value="印度">
+								<option value="澳大利亚">
+								<option value="加拿大">
+								<option value="意大利">
+								<option value="韩国">
+                            </datalist>
+                        </label>
+                    </div>
+                    <div class="parent">
+                        <label class="select">
+                            <input list="province" placeholder="省份" />
+                            <datalist id="province">
+                                <option value="安徽省">
+								<option value="北京市">
+								<option value="上海市">
+								<option value="广东省">
+								<option value="江苏省">
+								<option value="浙江省">
+								<option value="山东省">
+								<option value="湖北省">
+								<option value="辽宁省">
+								<option value="新疆维吾尔族自治区">
+								<option value="陕西省">
+								<option value="内蒙古自治区">
+                            </datalist>
+                        </label>
+                    </div>
+                    <div class="parent">
+							<label class="select">
+								<input list="city" placeholder="城市"/>
+								<datalist  id="city">
+									<option value="合肥市">
+									<option value="芜湖市">
+									<option value="安庆市">
+									<option value="阜阳市">
+									<option value="蚌埠市">
+									<option value="马鞍山市">
+									<option value="滁州市">
+								</datalist>
+							</label>
+						</div>
+                        <div>
+                            <label>
+                                <button name="search" class="butt" value="search">搜索</button>
+                            </label>
+                        </div>
+                
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
